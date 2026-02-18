@@ -20,7 +20,7 @@
 python --version
 ```
 
-2. Установить python модуль для работы с последовательным портом:
+2. Установить python модули для работы с последовательным портом и построения графиков:
 
 ``` bash
 python -m pip install pyserial matplotlib

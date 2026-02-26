@@ -3,7 +3,7 @@ name: Launch GitBook deploy workflow
 on: 
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
 
 jobs:
@@ -17,8 +17,8 @@ jobs:
           github-token: ${{ secrets.DEPLOY_PAT }}
           script: |
             await github.rest.actions.createWorkflowDispatch({
-              owner: 'RomaGlock',
-              repo: 'obsidian-gitbook',
+              owner: 'ant-lab-ru',
+              repo: 'ant-mcu-gitbook',
               workflow_id: 'build-gitbook.yml',
               ref: 'main',
               inputs: {

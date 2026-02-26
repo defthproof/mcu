@@ -3,7 +3,7 @@ name: Launch GitBook deploy workflow
 on: 
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:
 
 jobs:

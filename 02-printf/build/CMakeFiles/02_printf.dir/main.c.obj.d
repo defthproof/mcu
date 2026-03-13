@@ -1,5 +1,4 @@
-CMakeFiles/02_printf.dir/main.c.obj: \
- C:/My_pap/ant-mcu/build/02-printf/main.c \
+CMakeFiles/02_printf.dir/main.c.obj: C:/build/02-printf/main.c \
  C:/Repositories/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
  C:/Repositories/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
  C:/Repositories/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
@@ -18,9 +17,9 @@ CMakeFiles/02_printf.dir/main.c.obj: \
  c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_intsup.h \
  c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_stdint.h \
  c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
- C:/My_pap/ant-mcu/build/02-printf/build/generated/pico_base/pico/version.h \
+ C:/build/02-printf/build/generated/pico_base/pico/version.h \
  C:/Repositories/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- C:/My_pap/ant-mcu/build/02-printf/build/generated/pico_base/pico/config_autogen.h \
+ C:/build/02-printf/build/generated/pico_base/pico/config_autogen.h \
  C:/Repositories/pico/pico-sdk/src/boards/include/boards/pico.h \
  C:/Repositories/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  C:/Repositories/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
@@ -63,21 +62,4 @@ CMakeFiles/02_printf.dir/main.c.obj: \
  C:/Repositories/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
  C:/Repositories/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
  C:/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
- c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\stdio.h \
- c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\reent.h \
- c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\_ansi.h \
- c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_types.h \
- c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\machine\_types.h \
- c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\lock.h \
- c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\types.h \
- c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\machine\endian.h \
- c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\machine\_endian.h \
- c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\select.h \
- c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_sigset.h \
- c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_timeval.h \
- c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\timespec.h \
- c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_timespec.h \
- c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_pthreadtypes.h \
- c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\sched.h \
- c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\machine\types.h \
- c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\stdio.h
+ C:/build/02-printf/stdio-task.h

@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/My_pap/ant-mcu/build/02-printf
+CMAKE_SOURCE_DIR = C:/build/02-printf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/My_pap/ant-mcu/build/02-printf/build
+CMAKE_BINARY_DIR = C:/build/02-printf/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/02_printf.dir/depend.make
@@ -73,23 +73,37 @@ CMakeFiles/02_printf.dir/codegen:
 .PHONY : CMakeFiles/02_printf.dir/codegen
 
 CMakeFiles/02_printf.dir/main.c.obj: CMakeFiles/02_printf.dir/flags.make
-CMakeFiles/02_printf.dir/main.c.obj: C:/My_pap/ant-mcu/build/02-printf/main.c
+CMakeFiles/02_printf.dir/main.c.obj: C:/build/02-printf/main.c
 CMakeFiles/02_printf.dir/main.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/02_printf.dir/main.c.obj"
-	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/main.c.obj -MF CMakeFiles/02_printf.dir/main.c.obj.d -o CMakeFiles/02_printf.dir/main.c.obj -c C:/My_pap/ant-mcu/build/02-printf/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/02_printf.dir/main.c.obj"
+	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/main.c.obj -MF CMakeFiles/02_printf.dir/main.c.obj.d -o CMakeFiles/02_printf.dir/main.c.obj -c C:/build/02-printf/main.c
 
 CMakeFiles/02_printf.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/02_printf.dir/main.c.i"
-	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/My_pap/ant-mcu/build/02-printf/main.c > CMakeFiles/02_printf.dir/main.c.i
+	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/build/02-printf/main.c > CMakeFiles/02_printf.dir/main.c.i
 
 CMakeFiles/02_printf.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/02_printf.dir/main.c.s"
-	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/My_pap/ant-mcu/build/02-printf/main.c -o CMakeFiles/02_printf.dir/main.c.s
+	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/build/02-printf/main.c -o CMakeFiles/02_printf.dir/main.c.s
+
+CMakeFiles/02_printf.dir/stdio-task/stdio-task.c.obj: CMakeFiles/02_printf.dir/flags.make
+CMakeFiles/02_printf.dir/stdio-task/stdio-task.c.obj: C:/build/02-printf/stdio-task/stdio-task.c
+CMakeFiles/02_printf.dir/stdio-task/stdio-task.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/02_printf.dir/stdio-task/stdio-task.c.obj"
+	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/stdio-task/stdio-task.c.obj -MF CMakeFiles/02_printf.dir/stdio-task/stdio-task.c.obj.d -o CMakeFiles/02_printf.dir/stdio-task/stdio-task.c.obj -c C:/build/02-printf/stdio-task/stdio-task.c
+
+CMakeFiles/02_printf.dir/stdio-task/stdio-task.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/02_printf.dir/stdio-task/stdio-task.c.i"
+	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/build/02-printf/stdio-task/stdio-task.c > CMakeFiles/02_printf.dir/stdio-task/stdio-task.c.i
+
+CMakeFiles/02_printf.dir/stdio-task/stdio-task.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/02_printf.dir/stdio-task/stdio-task.c.s"
+	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/build/02-printf/stdio-task/stdio-task.c -o CMakeFiles/02_printf.dir/stdio-task/stdio-task.c.s
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -103,7 +117,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdli
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -117,7 +131,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_g
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj: C:/Repositories/pico/pico-sdk/src/rp2040/pico_platform/platform.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2040/pico_platform/platform.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i: cmake_force
@@ -131,7 +145,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2040/pico_platform/
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.i: cmake_force
@@ -145,7 +159,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_platf
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i: cmake_force
@@ -159,7 +173,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_platf
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/hardware_claim/claim.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/hardware_claim/claim.c.obj: C:/Repositories/pico/pico-sdk/src/common/hardware_claim/claim.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/hardware_claim/claim.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/hardware_claim/claim.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/hardware_claim/claim.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/hardware_claim/claim.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/hardware_claim/claim.c.obj -c C:/Repositories/pico/pico-sdk/src/common/hardware_claim/claim.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/hardware_claim/claim.c.i: cmake_force
@@ -173,7 +187,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/hardware_claim
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -187,7 +201,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_s
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i: cmake_force
@@ -201,7 +215,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_s
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -214,7 +228,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_i
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building ASM object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -228,7 +242,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_i
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/sem.c.obj: C:/Repositories/pico/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c C:/Repositories/pico/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -242,7 +256,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/sem.
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: C:/Repositories/pico/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c C:/Repositories/pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -256,7 +270,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/lock
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: C:/Repositories/pico/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c C:/Repositories/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -270,7 +284,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/mute
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: C:/Repositories/pico/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c C:/Repositories/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -284,7 +298,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_sync/crit
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_time/time.c.obj: C:/Repositories/pico/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_time/time.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_time/time.c.obj -c C:/Repositories/pico/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -298,7 +312,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_time/time
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: C:/Repositories/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c C:/Repositories/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -312,7 +326,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_time/time
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -326,7 +340,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_t
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/datetime.c.obj: C:/Repositories/pico/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c C:/Repositories/pico/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -340,7 +354,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/date
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/pheap.c.obj: C:/Repositories/pico/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c C:/Repositories/pico/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -354,7 +368,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/phea
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/queue.c.obj: C:/Repositories/pico/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/queue.c.obj -c C:/Repositories/pico/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -368,7 +382,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/common/pico_util/queu
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -382,7 +396,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_u
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -396,7 +410,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -410,7 +424,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_p
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -424,7 +438,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_v
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -438,7 +452,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_w
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i: cmake_force
@@ -452,7 +466,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_t
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -466,7 +480,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bootr
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i: cmake_force
@@ -480,7 +494,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bootr
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i: cmake_force
@@ -494,7 +508,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_b
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_flash/flash.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_flash/flash.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i: cmake_force
@@ -508,7 +522,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_flash
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -521,7 +535,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_x
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -535,7 +549,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_d
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -549,7 +563,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runti
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i: cmake_force
@@ -563,7 +577,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runti
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i: cmake_force
@@ -577,7 +591,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runti
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i: cmake_force
@@ -590,7 +604,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_runti
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -603,7 +617,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bit_o
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj   -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i: cmake_force
@@ -616,7 +630,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_divid
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj   -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i: cmake_force
@@ -630,7 +644,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_doubl
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i: cmake_force
@@ -644,7 +658,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_doubl
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -657,7 +671,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_doubl
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj   -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i: cmake_force
@@ -670,7 +684,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_doubl
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -683,7 +697,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_int64
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj   -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i: cmake_force
@@ -697,7 +711,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i: cmake_force
@@ -711,7 +725,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -724,7 +738,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj   -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i: cmake_force
@@ -738,7 +752,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i: cmake_force
@@ -751,7 +765,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_mallo
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building ASM object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -765,7 +779,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_mem_o
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i: cmake_force
@@ -779,7 +793,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_atomi
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i: cmake_force
@@ -793,7 +807,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_cxx_o
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i: cmake_force
@@ -807,7 +821,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stand
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -820,7 +834,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_print
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building ASM object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building ASM object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj   -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
@@ -834,7 +848,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_crt0/
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i: cmake_force
@@ -848,7 +862,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_clib_
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -862,7 +876,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -876,7 +890,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -890,7 +904,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -904,7 +918,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -918,7 +932,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_uniqu
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -932,7 +946,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_f
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i: cmake_force
@@ -946,7 +960,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_x
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: C:/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c C:/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -960,7 +974,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: C:/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c C:/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -974,7 +988,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/portable/
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: C:/Repositories/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c C:/Repositories/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -988,7 +1002,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/device/us
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: C:/Repositories/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c C:/Repositories/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -1002,7 +1016,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/device/us
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -1016,7 +1030,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/aud
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -1030,7 +1044,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/cdc
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -1044,7 +1058,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -1058,7 +1072,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/dfu
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -1072,7 +1086,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/hid
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -1086,7 +1100,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/mid
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -1100,7 +1114,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/msc
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -1114,7 +1128,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -1128,7 +1142,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/net
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -1142,7 +1156,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/usb
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -1156,7 +1170,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/ven
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c C:/Repositories/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -1170,7 +1184,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/vid
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: C:/Repositories/pico/pico-sdk/lib/tinyusb/src/tusb.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -c C:/Repositories/pico/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -1184,7 +1198,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: C:/Repositories/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c C:/Repositories/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1198,7 +1212,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/common/tu
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/02_printf.dir/flags.make
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: C:/Repositories/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/02_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c C:/Repositories/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1212,6 +1226,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_fix/r
 # Object files for target 02_printf
 02_printf_OBJECTS = \
 "CMakeFiles/02_printf.dir/main.c.obj" \
+"CMakeFiles/02_printf.dir/stdio-task/stdio-task.c.obj" \
 "CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj" \
@@ -1298,6 +1313,7 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_fix/r
 02_printf_EXTERNAL_OBJECTS =
 
 02_printf.elf: CMakeFiles/02_printf.dir/main.c.obj
+02_printf.elf: CMakeFiles/02_printf.dir/stdio-task/stdio-task.c.obj
 02_printf.elf: CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 02_printf.elf: CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 02_printf.elf: CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
@@ -1381,15 +1397,15 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_fix/r
 02_printf.elf: CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 02_printf.elf: CMakeFiles/02_printf.dir/build.make
 02_printf.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.obj
-02_printf.elf: C:/My_pap/ant-mcu/build/02-printf/memmap_rp2040.ld
+02_printf.elf: C:/build/02-printf/memmap_rp2040.ld
 02_printf.elf: CMakeFiles/02_printf.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Linking CXX executable 02_printf.elf"
-	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-g++.exe" -mcpu=cortex-m0plus -mthumb -g -O3 -DNDEBUG -Wl,--build-id=none -Wl,-Map=C:/My_pap/ant-mcu/build/02-printf/build/02_printf.elf.map --specs=nosys.specs -Wl,--wrap=__clzsi2 -Wl,--wrap=__clzdi2 -Wl,--wrap=__ctzsi2 -Wl,--wrap=__popcountsi2 -Wl,--wrap=__popcountdi2 -Wl,--wrap=__clz -Wl,--wrap=__clzl -Wl,--wrap=__clzll -Wl,--wrap=__ctzdi2 -Wl,--wrap=__aeabi_idiv -Wl,--wrap=__aeabi_idivmod -Wl,--wrap=__aeabi_ldivmod -Wl,--wrap=__aeabi_uidiv -Wl,--wrap=__aeabi_uidivmod -Wl,--wrap=__aeabi_uldivmod -Wl,--wrap=__aeabi_dadd -Wl,--wrap=__aeabi_ddiv -Wl,--wrap=__aeabi_dmul -Wl,--wrap=__aeabi_drsub -Wl,--wrap=__aeabi_dsub -Wl,--wrap=__aeabi_cdcmpeq -Wl,--wrap=__aeabi_cdrcmple -Wl,--wrap=__aeabi_cdcmple -Wl,--wrap=__aeabi_dcmpeq -Wl,--wrap=__aeabi_dcmplt -Wl,--wrap=__aeabi_dcmple -Wl,--wrap=__aeabi_dcmpge -Wl,--wrap=__aeabi_dcmpgt -Wl,--wrap=__aeabi_dcmpun -Wl,--wrap=__aeabi_i2d -Wl,--wrap=__aeabi_l2d -Wl,--wrap=__aeabi_ui2d -Wl,--wrap=__aeabi_ul2d -Wl,--wrap=__aeabi_d2iz -Wl,--wrap=__aeabi_d2lz -Wl,--wrap=__aeabi_d2uiz -Wl,--wrap=__aeabi_d2ulz -Wl,--wrap=__aeabi_d2f -Wl,--wrap=sqrt -Wl,--wrap=cos -Wl,--wrap=sin -Wl,--wrap=tan -Wl,--wrap=atan2 -Wl,--wrap=exp -Wl,--wrap=log -Wl,--wrap=ldexp -Wl,--wrap=copysign -Wl,--wrap=trunc -Wl,--wrap=floor -Wl,--wrap=ceil -Wl,--wrap=round -Wl,--wrap=sincos -Wl,--wrap=asin -Wl,--wrap=acos -Wl,--wrap=atan -Wl,--wrap=sinh -Wl,--wrap=cosh -Wl,--wrap=tanh -Wl,--wrap=asinh -Wl,--wrap=acosh -Wl,--wrap=atanh -Wl,--wrap=exp2 -Wl,--wrap=log2 -Wl,--wrap=exp10 -Wl,--wrap=log10 -Wl,--wrap=pow -Wl,--wrap=powint -Wl,--wrap=hypot -Wl,--wrap=cbrt -Wl,--wrap=fmod -Wl,--wrap=drem -Wl,--wrap=remainder -Wl,--wrap=remquo -Wl,--wrap=expm1 -Wl,--wrap=log1p -Wl,--wrap=fma -Wl,--wrap=__aeabi_lmul -Wl,--wrap=__aeabi_fadd -Wl,--wrap=__aeabi_fdiv -Wl,--wrap=__aeabi_fmul -Wl,--wrap=__aeabi_frsub -Wl,--wrap=__aeabi_fsub -Wl,--wrap=__aeabi_cfcmpeq -Wl,--wrap=__aeabi_cfrcmple -Wl,--wrap=__aeabi_cfcmple -Wl,--wrap=__aeabi_fcmpeq -Wl,--wrap=__aeabi_fcmplt -Wl,--wrap=__aeabi_fcmple -Wl,--wrap=__aeabi_fcmpge -Wl,--wrap=__aeabi_fcmpgt -Wl,--wrap=__aeabi_fcmpun -Wl,--wrap=__aeabi_i2f -Wl,--wrap=__aeabi_ui2f -Wl,--wrap=__aeabi_f2iz -Wl,--wrap=__aeabi_f2uiz -Wl,--wrap=__aeabi_l2f -Wl,--wrap=__aeabi_ul2f -Wl,--wrap=__aeabi_f2lz -Wl,--wrap=__aeabi_f2ulz -Wl,--wrap=__aeabi_f2d -Wl,--wrap=sqrtf -Wl,--wrap=cosf -Wl,--wrap=sinf -Wl,--wrap=tanf -Wl,--wrap=atan2f -Wl,--wrap=expf -Wl,--wrap=logf -Wl,--wrap=sincosf -Wl,--wrap=ldexpf -Wl,--wrap=copysignf -Wl,--wrap=truncf -Wl,--wrap=floorf -Wl,--wrap=ceilf -Wl,--wrap=roundf -Wl,--wrap=asinf -Wl,--wrap=acosf -Wl,--wrap=atanf -Wl,--wrap=sinhf -Wl,--wrap=coshf -Wl,--wrap=tanhf -Wl,--wrap=asinhf -Wl,--wrap=acoshf -Wl,--wrap=atanhf -Wl,--wrap=exp2f -Wl,--wrap=log2f -Wl,--wrap=exp10f -Wl,--wrap=log10f -Wl,--wrap=powf -Wl,--wrap=powintf -Wl,--wrap=hypotf -Wl,--wrap=cbrtf -Wl,--wrap=fmodf -Wl,--wrap=dremf -Wl,--wrap=remainderf -Wl,--wrap=remquof -Wl,--wrap=expm1f -Wl,--wrap=log1pf -Wl,--wrap=fmaf -Wl,--wrap=malloc -Wl,--wrap=calloc -Wl,--wrap=realloc -Wl,--wrap=free -Wl,--wrap=memcpy -Wl,--wrap=memset -Wl,--wrap=__aeabi_memcpy -Wl,--wrap=__aeabi_memset -Wl,--wrap=__aeabi_memcpy4 -Wl,--wrap=__aeabi_memset4 -Wl,--wrap=__aeabi_memcpy8 -Wl,--wrap=__aeabi_memset8 -Wl,-LC:/My_pap/ant-mcu/build/02-printf/build -Wl,--script=C:/My_pap/ant-mcu/build/02-printf/memmap_rp2040.ld -Wl,-z,max-page-size=4096 -Wl,--gc-sections -Wl,--wrap=sprintf -Wl,--wrap=snprintf -Wl,--wrap=vsnprintf -Wl,--wrap=printf -Wl,--wrap=vprintf -Wl,--wrap=puts -Wl,--wrap=putchar -Wl,--wrap=getchar @CMakeFiles/02_printf.dir/objects1.rsp -o 02_printf.elf  pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.obj
-	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-objdump.exe" -h C:/My_pap/ant-mcu/build/02-printf/build/02_printf.elf > 02_printf.dis
-	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-objdump.exe" -d C:/My_pap/ant-mcu/build/02-printf/build/02_printf.elf >> 02_printf.dis
-	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-objcopy.exe" -Oihex C:/My_pap/ant-mcu/build/02-printf/build/02_printf.elf 02_printf.hex
-	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-objcopy.exe" -Obinary C:/My_pap/ant-mcu/build/02-printf/build/02_printf.elf 02_printf.bin
-	"C:/Program Files/picotool/picotool.exe" uf2 convert --quiet C:/My_pap/ant-mcu/build/02-printf/build/02_printf.elf 02_printf.uf2 --family rp2040
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Linking CXX executable 02_printf.elf"
+	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-g++.exe" -mcpu=cortex-m0plus -mthumb -g -O3 -DNDEBUG -Wl,--build-id=none -Wl,-Map=C:/build/02-printf/build/02_printf.elf.map --specs=nosys.specs -Wl,--wrap=__clzsi2 -Wl,--wrap=__clzdi2 -Wl,--wrap=__ctzsi2 -Wl,--wrap=__popcountsi2 -Wl,--wrap=__popcountdi2 -Wl,--wrap=__clz -Wl,--wrap=__clzl -Wl,--wrap=__clzll -Wl,--wrap=__ctzdi2 -Wl,--wrap=__aeabi_idiv -Wl,--wrap=__aeabi_idivmod -Wl,--wrap=__aeabi_ldivmod -Wl,--wrap=__aeabi_uidiv -Wl,--wrap=__aeabi_uidivmod -Wl,--wrap=__aeabi_uldivmod -Wl,--wrap=__aeabi_dadd -Wl,--wrap=__aeabi_ddiv -Wl,--wrap=__aeabi_dmul -Wl,--wrap=__aeabi_drsub -Wl,--wrap=__aeabi_dsub -Wl,--wrap=__aeabi_cdcmpeq -Wl,--wrap=__aeabi_cdrcmple -Wl,--wrap=__aeabi_cdcmple -Wl,--wrap=__aeabi_dcmpeq -Wl,--wrap=__aeabi_dcmplt -Wl,--wrap=__aeabi_dcmple -Wl,--wrap=__aeabi_dcmpge -Wl,--wrap=__aeabi_dcmpgt -Wl,--wrap=__aeabi_dcmpun -Wl,--wrap=__aeabi_i2d -Wl,--wrap=__aeabi_l2d -Wl,--wrap=__aeabi_ui2d -Wl,--wrap=__aeabi_ul2d -Wl,--wrap=__aeabi_d2iz -Wl,--wrap=__aeabi_d2lz -Wl,--wrap=__aeabi_d2uiz -Wl,--wrap=__aeabi_d2ulz -Wl,--wrap=__aeabi_d2f -Wl,--wrap=sqrt -Wl,--wrap=cos -Wl,--wrap=sin -Wl,--wrap=tan -Wl,--wrap=atan2 -Wl,--wrap=exp -Wl,--wrap=log -Wl,--wrap=ldexp -Wl,--wrap=copysign -Wl,--wrap=trunc -Wl,--wrap=floor -Wl,--wrap=ceil -Wl,--wrap=round -Wl,--wrap=sincos -Wl,--wrap=asin -Wl,--wrap=acos -Wl,--wrap=atan -Wl,--wrap=sinh -Wl,--wrap=cosh -Wl,--wrap=tanh -Wl,--wrap=asinh -Wl,--wrap=acosh -Wl,--wrap=atanh -Wl,--wrap=exp2 -Wl,--wrap=log2 -Wl,--wrap=exp10 -Wl,--wrap=log10 -Wl,--wrap=pow -Wl,--wrap=powint -Wl,--wrap=hypot -Wl,--wrap=cbrt -Wl,--wrap=fmod -Wl,--wrap=drem -Wl,--wrap=remainder -Wl,--wrap=remquo -Wl,--wrap=expm1 -Wl,--wrap=log1p -Wl,--wrap=fma -Wl,--wrap=__aeabi_lmul -Wl,--wrap=__aeabi_fadd -Wl,--wrap=__aeabi_fdiv -Wl,--wrap=__aeabi_fmul -Wl,--wrap=__aeabi_frsub -Wl,--wrap=__aeabi_fsub -Wl,--wrap=__aeabi_cfcmpeq -Wl,--wrap=__aeabi_cfrcmple -Wl,--wrap=__aeabi_cfcmple -Wl,--wrap=__aeabi_fcmpeq -Wl,--wrap=__aeabi_fcmplt -Wl,--wrap=__aeabi_fcmple -Wl,--wrap=__aeabi_fcmpge -Wl,--wrap=__aeabi_fcmpgt -Wl,--wrap=__aeabi_fcmpun -Wl,--wrap=__aeabi_i2f -Wl,--wrap=__aeabi_ui2f -Wl,--wrap=__aeabi_f2iz -Wl,--wrap=__aeabi_f2uiz -Wl,--wrap=__aeabi_l2f -Wl,--wrap=__aeabi_ul2f -Wl,--wrap=__aeabi_f2lz -Wl,--wrap=__aeabi_f2ulz -Wl,--wrap=__aeabi_f2d -Wl,--wrap=sqrtf -Wl,--wrap=cosf -Wl,--wrap=sinf -Wl,--wrap=tanf -Wl,--wrap=atan2f -Wl,--wrap=expf -Wl,--wrap=logf -Wl,--wrap=sincosf -Wl,--wrap=ldexpf -Wl,--wrap=copysignf -Wl,--wrap=truncf -Wl,--wrap=floorf -Wl,--wrap=ceilf -Wl,--wrap=roundf -Wl,--wrap=asinf -Wl,--wrap=acosf -Wl,--wrap=atanf -Wl,--wrap=sinhf -Wl,--wrap=coshf -Wl,--wrap=tanhf -Wl,--wrap=asinhf -Wl,--wrap=acoshf -Wl,--wrap=atanhf -Wl,--wrap=exp2f -Wl,--wrap=log2f -Wl,--wrap=exp10f -Wl,--wrap=log10f -Wl,--wrap=powf -Wl,--wrap=powintf -Wl,--wrap=hypotf -Wl,--wrap=cbrtf -Wl,--wrap=fmodf -Wl,--wrap=dremf -Wl,--wrap=remainderf -Wl,--wrap=remquof -Wl,--wrap=expm1f -Wl,--wrap=log1pf -Wl,--wrap=fmaf -Wl,--wrap=malloc -Wl,--wrap=calloc -Wl,--wrap=realloc -Wl,--wrap=free -Wl,--wrap=memcpy -Wl,--wrap=memset -Wl,--wrap=__aeabi_memcpy -Wl,--wrap=__aeabi_memset -Wl,--wrap=__aeabi_memcpy4 -Wl,--wrap=__aeabi_memset4 -Wl,--wrap=__aeabi_memcpy8 -Wl,--wrap=__aeabi_memset8 -Wl,-LC:/build/02-printf/build -Wl,--script=C:/build/02-printf/memmap_rp2040.ld -Wl,-z,max-page-size=4096 -Wl,--gc-sections -Wl,--wrap=sprintf -Wl,--wrap=snprintf -Wl,--wrap=vsnprintf -Wl,--wrap=printf -Wl,--wrap=vprintf -Wl,--wrap=puts -Wl,--wrap=putchar -Wl,--wrap=getchar @CMakeFiles/02_printf.dir/objects1.rsp -o 02_printf.elf  pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.obj
+	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-objdump.exe" -h C:/build/02-printf/build/02_printf.elf > 02_printf.dis
+	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-objdump.exe" -d C:/build/02-printf/build/02_printf.elf >> 02_printf.dis
+	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-objcopy.exe" -Oihex C:/build/02-printf/build/02_printf.elf 02_printf.hex
+	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-objcopy.exe" -Obinary C:/build/02-printf/build/02_printf.elf 02_printf.bin
+	"C:/Program Files/picotool/picotool.exe" uf2 convert --quiet C:/build/02-printf/build/02_printf.elf 02_printf.uf2 --family rp2040
 
 # Rule to build all files generated by this target.
 CMakeFiles/02_printf.dir/build: 02_printf.elf
@@ -1400,6 +1416,6 @@ CMakeFiles/02_printf.dir/clean:
 .PHONY : CMakeFiles/02_printf.dir/clean
 
 CMakeFiles/02_printf.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/My_pap/ant-mcu/build/02-printf C:/My_pap/ant-mcu/build/02-printf C:/My_pap/ant-mcu/build/02-printf/build C:/My_pap/ant-mcu/build/02-printf/build C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles/02_printf.dir/DependInfo.cmake "--color=$(COLOR)" 02_printf
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/build/02-printf C:/build/02-printf C:/build/02-printf/build C:/build/02-printf/build C:/build/02-printf/build/CMakeFiles/02_printf.dir/DependInfo.cmake "--color=$(COLOR)" 02_printf
 .PHONY : CMakeFiles/02_printf.dir/depend
 

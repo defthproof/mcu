@@ -57,10 +57,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/My_pap/ant-mcu/build/02-printf
+CMAKE_SOURCE_DIR = C:/build/02-printf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/My_pap/ant-mcu/build/02-printf/build
+CMAKE_BINARY_DIR = C:/build/02-printf/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles C:/My_pap/ant-mcu/build/02-printf/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/build/02-printf/build/CMakeFiles C:/build/02-printf/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/build/02-printf/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -1999,6 +1999,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_printf.dir/build.make CMakeFiles/02_printf.dir/main.c.s
 .PHONY : main.c.s
 
+stdio-task/stdio-task.obj: stdio-task/stdio-task.c.obj
+.PHONY : stdio-task/stdio-task.obj
+
+# target to build an object file
+stdio-task/stdio-task.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_printf.dir/build.make CMakeFiles/02_printf.dir/stdio-task/stdio-task.c.obj
+.PHONY : stdio-task/stdio-task.c.obj
+
+stdio-task/stdio-task.i: stdio-task/stdio-task.c.i
+.PHONY : stdio-task/stdio-task.i
+
+# target to preprocess a source file
+stdio-task/stdio-task.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_printf.dir/build.make CMakeFiles/02_printf.dir/stdio-task/stdio-task.c.i
+.PHONY : stdio-task/stdio-task.c.i
+
+stdio-task/stdio-task.s: stdio-task/stdio-task.c.s
+.PHONY : stdio-task/stdio-task.s
+
+# target to generate assembly for a file
+stdio-task/stdio-task.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_printf.dir/build.make CMakeFiles/02_printf.dir/stdio-task/stdio-task.c.s
+.PHONY : stdio-task/stdio-task.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2238,6 +2262,9 @@ help:
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... stdio-task/stdio-task.obj"
+	@echo "... stdio-task/stdio-task.i"
+	@echo "... stdio-task/stdio-task.s"
 .PHONY : help
 
 

@@ -7,13 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "C:/My_pap/ant-mcu/build/03-control/CMakeLists.txt"
-  "CMakeFiles/4.3.0-rc2/CMakeASMCompiler.cmake"
-  "CMakeFiles/4.3.0-rc2/CMakeCCompiler.cmake"
-  "CMakeFiles/4.3.0-rc2/CMakeCXXCompiler.cmake"
-  "CMakeFiles/4.3.0-rc2/CMakeSystem.cmake"
-  "pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/pioasmBuild-mkdirs.cmake"
-  "C:/My_pap/ant-mcu/build/03-control/pico_sdk_import.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeASMCompiler.cmake.in"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeASMInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompiler.cmake.in"
@@ -258,6 +251,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Repositories/pico/pico-sdk/src/rp2_common/tinyusb/CMakeLists.txt"
   "C:/Repositories/pico/pico-sdk/tools/CMakeLists.txt"
   "C:/Repositories/pico/pico-sdk/tools/Findpioasm.cmake"
+  "C:/build/03-control/CMakeLists.txt"
+  "CMakeFiles/4.3.0-rc2/CMakeASMCompiler.cmake"
+  "CMakeFiles/4.3.0-rc2/CMakeCCompiler.cmake"
+  "CMakeFiles/4.3.0-rc2/CMakeCXXCompiler.cmake"
+  "CMakeFiles/4.3.0-rc2/CMakeSystem.cmake"
+  "pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/pioasmBuild-mkdirs.cmake"
+  "C:/build/03-control/pico_sdk_import.cmake"
   )
 
 # The corresponding makefile is:
@@ -390,7 +390,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/03-control.dir/DependInfo.cmake"
+  "CMakeFiles/03_control.dir/DependInfo.cmake"
   "pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/DependInfo.cmake"
   "pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake"
   "pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/DependInfo.cmake"

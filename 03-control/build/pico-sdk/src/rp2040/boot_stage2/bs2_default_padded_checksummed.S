@@ -1,4 +1,4 @@
-// Padded and checksummed version of: C:/My_pap/ant-mcu/build/03-control/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: C:/build/03-control/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

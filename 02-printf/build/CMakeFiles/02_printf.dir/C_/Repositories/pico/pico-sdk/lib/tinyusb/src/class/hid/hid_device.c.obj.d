@@ -22,9 +22,9 @@ CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/lib/tinyusb/src/class/hid
  c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_intsup.h \
  c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_stdint.h \
  c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\10\ 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
- C:/My_pap/ant-mcu/build/02-printf/build/generated/pico_base/pico/version.h \
+ C:/build/02-printf/build/generated/pico_base/pico/version.h \
  C:/Repositories/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- C:/My_pap/ant-mcu/build/02-printf/build/generated/pico_base/pico/config_autogen.h \
+ C:/build/02-printf/build/generated/pico_base/pico/config_autogen.h \
  C:/Repositories/pico/pico-sdk/src/boards/include/boards/pico.h \
  C:/Repositories/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  C:/Repositories/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \

@@ -10,7 +10,8 @@ project(02_printf)
 pico_sdk_init()
 
 add_executable(${PROJECT_NAME}
-    ${CMAKE_CURRENT_SOURCE_DIR}/main.c
+    main.c
+    stdio-task/stdio-task.c
 )
 
 target_link_libraries(${PROJECT_NAME}

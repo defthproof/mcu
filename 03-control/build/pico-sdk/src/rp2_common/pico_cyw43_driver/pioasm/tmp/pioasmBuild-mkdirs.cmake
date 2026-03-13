@@ -10,18 +10,18 @@ if(NOT EXISTS "C:/Repositories/pico/pico-sdk/tools/pioasm")
   file(MAKE_DIRECTORY "C:/Repositories/pico/pico-sdk/tools/pioasm")
 endif()
 file(MAKE_DIRECTORY
-  "C:/My_pap/ant-mcu/build/03-control/build/pioasm"
-  "C:/My_pap/ant-mcu/build/03-control/build/pioasm-install"
-  "C:/My_pap/ant-mcu/build/03-control/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp"
-  "C:/My_pap/ant-mcu/build/03-control/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
-  "C:/My_pap/ant-mcu/build/03-control/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src"
-  "C:/My_pap/ant-mcu/build/03-control/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
+  "C:/build/03-control/build/pioasm"
+  "C:/build/03-control/build/pioasm-install"
+  "C:/build/03-control/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp"
+  "C:/build/03-control/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
+  "C:/build/03-control/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src"
+  "C:/build/03-control/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/My_pap/ant-mcu/build/03-control/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/build/03-control/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/My_pap/ant-mcu/build/03-control/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/build/03-control/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp${cfgdir}") # cfgdir has leading slash
 endif()

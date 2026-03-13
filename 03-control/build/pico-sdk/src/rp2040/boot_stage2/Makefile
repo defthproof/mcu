@@ -57,10 +57,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/My_pap/ant-mcu/build/03-control
+CMAKE_SOURCE_DIR = C:/build/03-control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/My_pap/ant-mcu/build/03-control/build
+CMAKE_BINARY_DIR = C:/build/03-control/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd C:/My_pap/ant-mcu/build/03-control/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/My_pap/ant-mcu/build/03-control/build/CMakeFiles C:/My_pap/ant-mcu/build/03-control/build/pico-sdk/src/rp2040/boot_stage2//CMakeFiles/progress.marks
-	cd C:/My_pap/ant-mcu/build/03-control/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/My_pap/ant-mcu/build/03-control/build/CMakeFiles 0
+	cd C:/build/03-control/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/build/03-control/build/CMakeFiles C:/build/03-control/build/pico-sdk/src/rp2040/boot_stage2//CMakeFiles/progress.marks
+	cd C:/build/03-control/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/build/03-control/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd C:/My_pap/ant-mcu/build/03-control/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/clean
+	cd C:/build/03-control/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd C:/My_pap/ant-mcu/build/03-control/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/preinstall
+	cd C:/build/03-control/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd C:/My_pap/ant-mcu/build/03-control/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/preinstall
+	cd C:/build/03-control/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd C:/My_pap/ant-mcu/build/03-control/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd C:/build/03-control/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/rule:
-	cd C:/My_pap/ant-mcu/build/03-control/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/rule
+	cd C:/build/03-control/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/rule
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ bs2_default: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/rule
 
 # fast build rule for target.
 bs2_default/fast:
-	cd C:/My_pap/ant-mcu/build/03-control/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build
+	cd C:/build/03-control/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build
 .PHONY : bs2_default/fast
 
 # Convenience name for target.
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule:
-	cd C:/My_pap/ant-mcu/build/03-control/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule
+	cd C:/build/03-control/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ bs2_default_bin: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/
 
 # fast build rule for target.
 bs2_default_bin/fast:
-	cd C:/My_pap/ant-mcu/build/03-control/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
+	cd C:/build/03-control/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
 .PHONY : bs2_default_bin/fast
 
 # Convenience name for target.
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/rule:
-	cd C:/My_pap/ant-mcu/build/03-control/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/rule
+	cd C:/build/03-control/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/rule
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/rule
 
 # Convenience name for target.
@@ -155,7 +155,7 @@ bs2_default_library: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_libr
 
 # fast build rule for target.
 bs2_default_library/fast:
-	cd C:/My_pap/ant-mcu/build/03-control/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build
+	cd C:/build/03-control/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build
 .PHONY : bs2_default_library/fast
 
 bs2_default_padded_checksummed.obj: bs2_default_padded_checksummed.S.obj
@@ -163,7 +163,7 @@ bs2_default_padded_checksummed.obj: bs2_default_padded_checksummed.S.obj
 
 # target to build an object file
 bs2_default_padded_checksummed.S.obj:
-	cd C:/My_pap/ant-mcu/build/03-control/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.obj
+	cd C:/build/03-control/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.obj
 .PHONY : bs2_default_padded_checksummed.S.obj
 
 compile_time_choice.obj: compile_time_choice.S.obj
@@ -171,7 +171,7 @@ compile_time_choice.obj: compile_time_choice.S.obj
 
 # target to build an object file
 compile_time_choice.S.obj:
-	cd C:/My_pap/ant-mcu/build/03-control/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
+	cd C:/build/03-control/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
 .PHONY : compile_time_choice.S.obj
 
 # Help Target
@@ -198,6 +198,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd C:/My_pap/ant-mcu/build/03-control/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd C:/build/03-control/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

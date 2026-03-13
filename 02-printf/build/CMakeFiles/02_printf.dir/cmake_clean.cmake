@@ -159,6 +159,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
   "CMakeFiles/02_printf.dir/main.c.obj"
   "CMakeFiles/02_printf.dir/main.c.obj.d"
+  "CMakeFiles/02_printf.dir/stdio-task/stdio-task.c.obj"
+  "CMakeFiles/02_printf.dir/stdio-task/stdio-task.c.obj.d"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/My_pap/ant-mcu/build/02-printf
+CMAKE_SOURCE_DIR = C:/build/02-printf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/My_pap/ant-mcu/build/02-printf/build
+CMAKE_BINARY_DIR = C:/build/02-printf/build
 
 # Utility rule file for pioasmBuild.
 
@@ -76,10 +76,10 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild-complete: pico-
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild-complete: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild-complete: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-build
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild-complete: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'pioasmBuild'"
-	cd C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && "C:/Program Files/CMake/bin/cmake.exe" -E make_directory C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles
-	cd C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && "C:/Program Files/CMake/bin/cmake.exe" -E touch C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild-complete
-	cd C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && "C:/Program Files/CMake/bin/cmake.exe" -E touch C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'pioasmBuild'"
+	cd C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && "C:/Program Files/CMake/bin/cmake.exe" -E make_directory C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles
+	cd C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && "C:/Program Files/CMake/bin/cmake.exe" -E touch C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild-complete
+	cd C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && "C:/Program Files/CMake/bin/cmake.exe" -E touch C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-done
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-install:
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-install
@@ -91,45 +91,45 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBui
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-install
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-build: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'pioasmBuild'"
-	cd C:/My_pap/ant-mcu/build/02-printf/build/pioasm && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'pioasmBuild'"
+	cd C:/build/02-printf/build/pioasm && $(MAKE)
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/pioasmBuild-cfgcmd.txt
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/pioasmBuild-cache-Release.cmake
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'pioasmBuild'"
-	cd C:/My_pap/ant-mcu/build/02-printf/build/pioasm && "C:/Program Files/CMake/bin/cmake.exe" --no-warn-unused-cli "-DCMAKE_MAKE_PROGRAM:FILEPATH=C:/PROGRA~2/GnuWin32/bin/make.exe" -DPIOASM_FLAT_INSTALL=1 -DCMAKE_INSTALL_PREFIX=C:/My_pap/ant-mcu/build/02-printf/build/pioasm-install -DCMAKE_RULE_MESSAGES=OFF -DCMAKE_INSTALL_MESSAGE=NEVER "-GUnix Makefiles" -CC:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/pioasmBuild-cache-Release.cmake -S C:/Repositories/pico/pico-sdk/tools/pioasm -B C:/My_pap/ant-mcu/build/02-printf/build/pioasm
-	cd C:/My_pap/ant-mcu/build/02-printf/build/pioasm && "C:/Program Files/CMake/bin/cmake.exe" -E touch C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'pioasmBuild'"
+	cd C:/build/02-printf/build/pioasm && "C:/Program Files/CMake/bin/cmake.exe" --no-warn-unused-cli "-DCMAKE_MAKE_PROGRAM:FILEPATH=C:/PROGRA~2/GnuWin32/bin/make.exe" -DPIOASM_FLAT_INSTALL=1 -DCMAKE_INSTALL_PREFIX=C:/build/02-printf/build/pioasm-install -DCMAKE_RULE_MESSAGES=OFF -DCMAKE_INSTALL_MESSAGE=NEVER "-GUnix Makefiles" -CC:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/pioasmBuild-cache-Release.cmake -S C:/Repositories/pico/pico-sdk/tools/pioasm -B C:/build/02-printf/build/pioasm
+	cd C:/build/02-printf/build/pioasm && "C:/Program Files/CMake/bin/cmake.exe" -E touch C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-download: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-source_dirinfo.txt
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-download: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'pioasmBuild'"
-	cd C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && "C:/Program Files/CMake/bin/cmake.exe" -E echo_append
-	cd C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && "C:/Program Files/CMake/bin/cmake.exe" -E touch C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'pioasmBuild'"
+	cd C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && "C:/Program Files/CMake/bin/cmake.exe" -E echo_append
+	cd C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && "C:/Program Files/CMake/bin/cmake.exe" -E touch C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-download
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-install: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'pioasmBuild'"
-	cd C:/My_pap/ant-mcu/build/02-printf/build/pioasm && $(MAKE) install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'pioasmBuild'"
+	cd C:/build/02-printf/build/pioasm && $(MAKE) install
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-build:
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-build
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'pioasmBuild'"
-	cd C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && "C:/Program Files/CMake/bin/cmake.exe" -Dcfgdir= -P C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/pioasmBuild-mkdirs.cmake
-	cd C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && "C:/Program Files/CMake/bin/cmake.exe" -E touch C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'pioasmBuild'"
+	cd C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && "C:/Program Files/CMake/bin/cmake.exe" -Dcfgdir= -P C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/pioasmBuild-mkdirs.cmake
+	cd C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && "C:/Program Files/CMake/bin/cmake.exe" -E touch C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-mkdir
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-patch: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-patch-info.txt
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-patch: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'pioasmBuild'"
-	cd C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && "C:/Program Files/CMake/bin/cmake.exe" -E echo_append
-	cd C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && "C:/Program Files/CMake/bin/cmake.exe" -E touch C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'pioasmBuild'"
+	cd C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && "C:/Program Files/CMake/bin/cmake.exe" -E echo_append
+	cd C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && "C:/Program Files/CMake/bin/cmake.exe" -E touch C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-patch
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-update: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-update-info.txt
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-update: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'pioasmBuild'"
-	cd C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && "C:/Program Files/CMake/bin/cmake.exe" -E echo_append
-	cd C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && "C:/Program Files/CMake/bin/cmake.exe" -E touch C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/build/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'pioasmBuild'"
+	cd C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && "C:/Program Files/CMake/bin/cmake.exe" -E echo_append
+	cd C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && "C:/Program Files/CMake/bin/cmake.exe" -E touch C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-update
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/codegen:
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/codegen
@@ -151,10 +151,10 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/build: pioa
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/build
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/clean:
-	cd C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/pioasmBuild.dir/cmake_clean.cmake
+	cd C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/pioasmBuild.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/clean
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/My_pap/ant-mcu/build/02-printf C:/Repositories/pico/pico-sdk/src/rp2_common/pico_cyw43_driver C:/My_pap/ant-mcu/build/02-printf/build C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver C:/My_pap/ant-mcu/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/DependInfo.cmake "--color=$(COLOR)" pioasmBuild
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/build/02-printf C:/Repositories/pico/pico-sdk/src/rp2_common/pico_cyw43_driver C:/build/02-printf/build C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver C:/build/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/DependInfo.cmake "--color=$(COLOR)" pioasmBuild
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/depend
 

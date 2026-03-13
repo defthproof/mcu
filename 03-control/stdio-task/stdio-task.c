@@ -1,20 +1,23 @@
 #include "stdio-task.h"
+
 #include <stdio.h>
+
 #include "pico/stdlib.h"
 
 #define COMMAND_BUF_LEN 128
 
-char command[COMMAND_BUF_LEN] = {0};
-int command_buf_idx;
+static char command[COMMAND_BUF_LEN] = {0};
+static int command_buf_idx = 0;
 
-void stdio_task_init()
+void stdio_task_init(void)
 {
     command_buf_idx = 0;
 }
 
-char *stdio_task_handle()
+char* stdio_task_handle(void)
 {
     int symbol = getchar_timeout_us(0);
+
     if (symbol == PICO_ERROR_TIMEOUT)
     {
         return NULL;
@@ -39,5 +42,6 @@ char *stdio_task_handle()
 
     command[command_buf_idx] = (char)symbol;
     command_buf_idx++;
+
     return NULL;
 }

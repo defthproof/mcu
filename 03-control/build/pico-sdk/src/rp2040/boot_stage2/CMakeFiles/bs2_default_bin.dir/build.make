@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/My_pap/ant-mcu/build/03-control
+CMAKE_SOURCE_DIR = C:/build/03-control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/My_pap/ant-mcu/build/03-control/build
+CMAKE_BINARY_DIR = C:/build/03-control/build
 
 # Utility rule file for bs2_default_bin.
 
@@ -69,8 +69,8 @@ include pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/progress.
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin: pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 pico-sdk/src/rp2040/boot_stage2/bs2_default.bin: pico-sdk/src/rp2040/boot_stage2/bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/My_pap/ant-mcu/build/03-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
-	cd C:/My_pap/ant-mcu/build/03-control/build/pico-sdk/src/rp2040/boot_stage2 && "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-objcopy.exe" -Obinary C:/My_pap/ant-mcu/build/03-control/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.elf C:/My_pap/ant-mcu/build/03-control/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/build/03-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
+	cd C:/build/03-control/build/pico-sdk/src/rp2040/boot_stage2 && "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-objcopy.exe" -Obinary C:/build/03-control/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.elf C:/build/03-control/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/codegen:
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/codegen
@@ -85,10 +85,10 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build: bs2_defaul
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
-	cd C:/My_pap/ant-mcu/build/03-control/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
+	cd C:/build/03-control/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/My_pap/ant-mcu/build/03-control C:/Repositories/pico/pico-sdk/src/rp2040/boot_stage2 C:/My_pap/ant-mcu/build/03-control/build C:/My_pap/ant-mcu/build/03-control/build/pico-sdk/src/rp2040/boot_stage2 C:/My_pap/ant-mcu/build/03-control/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake "--color=$(COLOR)" bs2_default_bin
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/build/03-control C:/Repositories/pico/pico-sdk/src/rp2040/boot_stage2 C:/build/03-control/build C:/build/03-control/build/pico-sdk/src/rp2040/boot_stage2 C:/build/03-control/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake "--color=$(COLOR)" bs2_default_bin
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 

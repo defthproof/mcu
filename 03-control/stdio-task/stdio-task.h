@@ -1,4 +1,4 @@
 #pragma once
 
-void stdio_task_init();
-char *stdio_task_handle();
+void stdio_task_init(void);
+char* stdio_task_handle(void);

@@ -1,8 +1,8 @@
-# Install script for directory: C:/My_pap/ant-mcu/build/03-control
+# Install script for directory: C:/build/03-control
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/03-control")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/03_control")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/My_pap/ant-mcu/build/03-control/build/pico-sdk/cmake_install.cmake")
+  include("C:/build/03-control/build/pico-sdk/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/My_pap/ant-mcu/build/03-control/build/install_local_manifest.txt"
+  file(WRITE "C:/build/03-control/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,6 +61,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/My_pap/ant-mcu/build/03-control/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/build/03-control/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

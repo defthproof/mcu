@@ -8,17 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-  "C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-  "C:/Repositories/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-  "C:/Repositories/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S" "C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj"
-  "C:/Repositories/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S" "C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj"
-  "C:/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S" "C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj"
-  "C:/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S" "C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj"
-  "C:/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S" "C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj"
-  "C:/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S" "C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj"
-  "C:/Repositories/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-  "C:/Repositories/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "C:/My_pap/ant-mcu/build/02-printf/build/CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+  "C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "C:/build/02-printf/build/CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+  "C:/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "C:/build/02-printf/build/CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+  "C:/Repositories/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "C:/build/02-printf/build/CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+  "C:/Repositories/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S" "C:/build/02-printf/build/CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj"
+  "C:/Repositories/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S" "C:/build/02-printf/build/CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj"
+  "C:/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S" "C:/build/02-printf/build/CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj"
+  "C:/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S" "C:/build/02-printf/build/CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj"
+  "C:/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S" "C:/build/02-printf/build/CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj"
+  "C:/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S" "C:/build/02-printf/build/CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj"
+  "C:/Repositories/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "C:/build/02-printf/build/CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+  "C:/Repositories/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "C:/build/02-printf/build/CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
   )
 
 # Preprocessor definitions for this target.
@@ -218,7 +218,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" "gcc" "CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d"
   "C:/Repositories/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "C:/Repositories/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
-  "C:/My_pap/ant-mcu/build/02-printf/main.c" "CMakeFiles/02_printf.dir/main.c.obj" "gcc" "CMakeFiles/02_printf.dir/main.c.obj.d"
+  "C:/build/02-printf/main.c" "CMakeFiles/02_printf.dir/main.c.obj" "gcc" "CMakeFiles/02_printf.dir/main.c.obj.d"
+  "C:/build/02-printf/stdio-task/stdio-task.c" "CMakeFiles/02_printf.dir/stdio-task/stdio-task.c.obj" "gcc" "CMakeFiles/02_printf.dir/stdio-task/stdio-task.c.obj.d"
   "C:/Repositories/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp" "CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj" "gcc" "CMakeFiles/02_printf.dir/C_/Repositories/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj.d"
   )
 

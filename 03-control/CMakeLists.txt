@@ -5,13 +5,15 @@ set(PICO_PLATFORM rp2040)
 
 include(pico_sdk_import.cmake)
 
-project(03-control)
+project(03_control)
 
 pico_sdk_init()
 
 add_executable(${PROJECT_NAME}
     main.c
     stdio-task/stdio-task.c
+    protocol-task/protocol-task.c
+    led-task/led-task.c
 )
 
 target_link_libraries(${PROJECT_NAME}

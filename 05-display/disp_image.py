@@ -2,7 +2,7 @@ from PIL import Image
 import serial
 import time
 
-PORT = "COM15"
+PORT = "COM16"
 BAUDRATE = 115200
 IMAGE_PATH = r"C:\build\05-display\jews.png"
 
